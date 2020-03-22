@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gists Api test" configfailurepolicy="continue" preserve-order="true" time-out="120000">
+    <test name="Gist">
+        <classes>
+            <class name="testcases.CreateGistTest"/>
+            <class name="testcases.GetGistTest"/>
+            <class name="testcases.UpdateGistTest"/>
+            <class name="testcases.DeleteGist"/>
+        </classes>
+    </test>
+
+</suite>
